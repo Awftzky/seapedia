@@ -5,7 +5,7 @@ import 'widgets/empty_orders_view.dart';
 import 'widgets/order_card.dart';
 
 class DriverDashboardView extends GetView<DriverDashboardController> {
-  const DriverDashboardView({Key? key}) : super(key: key);
+  const DriverDashboardView({super.key});
 
   @override
   Widget build(BuildContext context) {

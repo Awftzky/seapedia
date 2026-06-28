@@ -40,7 +40,7 @@ class CartItemCard extends StatelessWidget {
                 Text(
                   'Rp ${item['price']}  x${item['quantity']}',
                   style: TextStyle(
-                    color: Colors.white.withOpacity(0.7),
+                    color: Colors.white.withValues(alpha: 0.7),
                     fontSize: 14,
                   ),
                 ),
@@ -53,7 +53,7 @@ class CartItemCard extends StatelessWidget {
               width: 44,
               height: 44,
               decoration: BoxDecoration(
-                color: Colors.white.withOpacity(0.1),
+                color: Colors.white.withValues(alpha: 0.1),
                 shape: BoxShape.circle,
               ),
               child: const Icon(Icons.remove, color: Colors.white),

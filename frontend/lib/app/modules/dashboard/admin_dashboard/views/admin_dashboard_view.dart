@@ -6,7 +6,7 @@ import 'widgets/empty_pending_view.dart';
 import 'widgets/pending_store_card.dart';
 
 class AdminDashboardView extends GetView<AdminDashboardController> {
-  const AdminDashboardView({Key? key}) : super(key: key);
+  const AdminDashboardView({super.key});
 
   static const Color accentCyan = Color(0xFF9DE4F4);
 
@@ -41,7 +41,7 @@ class AdminDashboardView extends GetView<AdminDashboardController> {
                 child: StatCard(
                   title: 'Active Users',
                   value: '${controller.activeUsers.value}',
-                  bgColor: Colors.white.withOpacity(0.9),
+                  bgColor: Colors.white.withValues(alpha: 0.9),
                 ),
               ),
             ],

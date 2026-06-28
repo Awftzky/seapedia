@@ -51,7 +51,7 @@ class OrderCard extends StatelessWidget {
           const SizedBox(height: 8),
           Text(
             '🚩 ${order['destination']}',
-            style: TextStyle(color: Colors.white.withOpacity(0.8), fontSize: 16),
+            style: TextStyle(color: Colors.white.withValues(alpha: 0.8), fontSize: 16),
           ),
           const Padding(
             padding: EdgeInsets.symmetric(vertical: 16),

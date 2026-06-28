@@ -17,7 +17,7 @@ class OrderStatusBadge extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
       decoration: BoxDecoration(
-        color: isWaiting ? Colors.white.withOpacity(0.1) : accentCyan,
+        color: isWaiting ? Colors.white.withValues(alpha: 0.1) : accentCyan,
         borderRadius: BorderRadius.circular(20),
       ),
       child: Text(

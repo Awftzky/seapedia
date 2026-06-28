@@ -47,7 +47,7 @@ class PendingStoreCard extends StatelessWidget {
                 child: ElevatedButton(
                   onPressed: onReject,
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.white.withOpacity(0.1),
+                    backgroundColor: Colors.white.withValues(alpha: 0.1),
                     foregroundColor: Colors.white,
                     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
                   ),
