@@ -1,0 +1,7 @@
+.idea/
+.DS_Store
+frontend/.dart_tool/
+frontend/.packages
+frontend/.pub/
+frontend/build/
+backend/node_modules/
